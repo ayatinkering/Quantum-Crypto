@@ -42,8 +42,7 @@ def prepare_qubit(bit: int, basis: str) -> QuantumCircuit:
     if bit == 1:
         circuit.x(0)
 
-    # The X basis is produced by rotating the computational basis with H.
-    if basis == X_BASIS:
+    if basis == X_BASIS:     # The X basis is produced by rotating the computational basis with H.
         circuit.h(0)
 
     return circuit
