@@ -1,4 +1,4 @@
-"""Estimate physical qubits versus logical qubits.
+"""Estimate physical qubits versus logical qubits
 
 Logical qubits are error-corrected qubits. Physical qubits are the noisy device
 qubits used to encode them. The ratio is not fixed: it depends on hardware error
