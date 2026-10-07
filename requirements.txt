@@ -1,7 +1,9 @@
-qiskit>=2.0
-qiskit-aer>=0.15
-qiskit-ibm-runtime>=0.40
+qiskit>=2.1
+qiskit-aer>=0.17
+qiskit-ibm-runtime>=0.40.1
 qiskit-algorithms>=0.3
 cryptography>=50.0
 matplotlib>=3.8
 notebook>=7.0
+numpy>=2.0
+pylatexenc>=2.10

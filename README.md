@@ -39,6 +39,8 @@ Optional IBM Quantum hardware access requires an IBM Quantum account and an API 
 - `qiskit_examples/02_shor_factor_15.py` - demonstrates Shor-style order finding for factoring 15.
 - `qiskit_examples/03_grover_vs_bruteforce.py` - compares Grover search with classical brute force.
 - `qiskit_examples/04_logical_vs_physical_qubits.py` - estimates physical-qubit overhead for logical qubits.
+- `qkd_research/` - breaks down IBM's QKD classroom notebook into reusable BB84 experiments and notes.
+- `pqc_examples/` - demonstrates ML-KEM, ML-DSA, hybrid key exchange, and crypto inventory scanning.
 - `notebooks/why_toy_demos_do_not_scale_to_rsa2048.ipynb` - explains why small factoring demos do not scale to RSA-2048 today.
 
 ## Main References
